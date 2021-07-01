@@ -1,0 +1,34 @@
+#button {
+  padding: 1rem;
+  border: .1rem #808080 solid;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  color: white;
+  background: crimson;
+  position: relative;
+  left: 20%;
+}
+
+#button:hover {
+  border: .1rem #404040 solid;
+  background-color: #e80b53;
+  color: black
+}
+
+.ordor_button {
+  padding: 15px 32px;
+  border: .1rem #808080 solid;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  color: white;
+  background: #10d2ec;
+  width: 80%;
+  margin-left: 11%;
+  margin-bottom: 1%;
+}
+
+.ordor_button:hover {
+  border: .1rem #404040 solid;
+  background-color: #0ba2e8;
+  color: black
+}

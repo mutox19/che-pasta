@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="style.css" />
+  <title>Che Pasta!</title>
+</head>
+
+<body>
+  <div class="grid-container">
+    <header class="header">
+      <div class="brand">
+        <button onclick="openMenu()">
+          &#9776;
+        </button>
+        <a href="index.html">Che Pasta!</a>
+      </div>
+      <div class="header-links">
+        <a href="cart.html">Carrito</a>
+        <a href="signin.html">Logueate</a>
+      </div>
+    </header>
+    <aside class="sidebar">
+      <h3> Productos</h3>
+      <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+      <ul >
+        <li>
+          <a href="index.html">Pastas Frescas</a>
+        </li>
+
+        <li>
+          <a href="index.html">Cocida</a>
+		</li>
+		<li>
+			<a href="index.html">Pastelería</a>
+		</li>
+  
+		<li>
+			<a href="index.html">Postres</a>
+		 </li>
+	  </ul>
+	  <h3> La Empresa</h3>
+	  <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+	  <ul>
+		<li>
+		  <a href="index.html">Nosotros</a>
+		</li>
+		<li>
+			<a href="index.html">Novedades</a>
+		  </li>
+	  </ul>
+	  <h3> Perfil</h3>
+	  <button class="sidebar-close-button" onclick="closeMenu()">x</button>
+	  <ul>
+		<li>
+		  <a href="index.html">Registrate</a>
+		</li>
+		<li>
+			<a href="index.html">Ayuda</a>
+		  </li>
+	  </ul>
+	</aside>
+    <main class="main">
+      <div class="content">
+        <ul class="products">
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/gnocchi de papa.jpeg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Gnocchis de Papa</a>
+              </div>
+              <div class="product-brand">Gnocchi</div>
+              <div class="product-price">$155</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/gnocchi de espinaca.jpeg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Gnocchis de Espinaca</a>
+              </div>
+              <div class="product-brand">UADE Made</div>
+              <div class="product-price">$175</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/gnocchi tricolor.jpeg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Gnocchis Tricolor</a>
+              </div>
+              <div class="product-brand">UADE Made</div>
+              <div class="product-price">$160</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/gnocchi de morron.jpeg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Gnocchis de Morrón</a>
+              </div>
+              <div class="product-brand">UADE Made</div>
+              <div class="product-price">$180</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/gnocchi de ricota.jpeg" alt="product" />
+              <div class="product-name">
+                <a href="product.html">Gnocchis de Ricota</a>
+              </div>
+              <div class="product-brand">UADE Made</div>
+              <div class="product-price">$145</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+          <li>
+            <div class="product">
+              <img class="product-image" src="images/Combo del mes.png" alt="product" />
+              <div class="product-name">
+                <a href="product.html">PROMO 4 (1KG ÑOQUIS, 1 TUCO MEDIANO 400GRS, 1 POTE DE QUESO 100GRS Y 2 FLANES)</a>
+              </div>
+              <div class="product-brand">UADE Made</div>
+              <div class="product-price">$225</div>
+              <div class="product-rating">4.5 Stars (10 Reviews)</div>
+            </div>
+          </li>
+
+        </ul>
+      </div>
+
+    </main>
+    <footer class="footer">
+		Che Pasta! | Lima 775 - C1073AAO, Buenos Aires, Argentina | Tel: 011-1534468000 | Líneas Rotativas
+		arenriquez@uade.edu.ar | jbarth@uade.edu.ar
+		© Todos los derechos Reservados
+    </footer>
+  </div>
+  <script>
+    function openMenu() {
+      document.querySelector(".sidebar").classList.add("open");
+    }
+    function closeMenu() {
+      document.querySelector(".sidebar").classList.remove("open")
+    }
+  </script>
+</body>
+
+</html>
